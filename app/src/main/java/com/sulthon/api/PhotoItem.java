@@ -1,4 +1,4 @@
-package com.api;
+package com.sulthon.api;
 
 public class PhotoItem {
     private String format;
