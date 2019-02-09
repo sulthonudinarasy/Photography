@@ -14,7 +14,7 @@ import java.util.List;
 public class RecycleAdapter extends RecyclerView.Adapter<RecycleAdapter.ViewHolder> {
     private List<PhotoItem> photoItemList;
 
-    public RecycleAdapter(List<PhotoItem> data) {
+    RecycleAdapter(List<PhotoItem> data) {
         this.photoItemList = data;
     }
 
@@ -37,7 +37,7 @@ public class RecycleAdapter extends RecyclerView.Adapter<RecycleAdapter.ViewHold
     class ViewHolder extends RecyclerView.ViewHolder{
         TextView txtName;
 
-        public ViewHolder(@NonNull View itemView) {
+        ViewHolder(@NonNull View itemView) {
             super(itemView);
             txtName = itemView.findViewById(R.id.txt_name);
         }
