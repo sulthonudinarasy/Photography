@@ -10,8 +10,8 @@ import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
-import com.sulthon.api.APIRepository;
-import com.sulthon.api.PhotoItem;
+import com.sulthon.photography.api.APIRepository;
+import com.sulthon.photography.api.PhotoItem;
 
 import java.util.List;
 
